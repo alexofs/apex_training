@@ -1,0 +1,21 @@
+drop table S_REGION cascade constraints;
+drop table S_DEPT cascade constraints;
+drop table S_TITLE cascade constraints;
+drop table S_EMP cascade constraints;
+drop table S_CUSTOMER cascade constraints;
+drop table S_IMAGE cascade constraints;
+drop table S_LONGTEXT cascade constraints;
+drop table S_PRODUCT cascade constraints;
+drop table S_ORD cascade constraints;
+drop table S_ITEM cascade constraints;
+drop table S_ITEM_AUDIT cascade constraints;
+drop table S_WAREHOUSE cascade constraints;
+drop table S_INVENTORY cascade constraints;
+
+drop sequence S_CUSTOMER_SEQ;
+drop sequence S_DEPT_SEQ;
+drop sequence S_EMP_SEQ;
+drop sequence S_LONGTEXT_SEQ;
+drop sequence S_ORD_SEQ;
+drop sequence S_PRODUCT_SEQ;
+drop sequence S_WAREHOUSE_SEQ;
